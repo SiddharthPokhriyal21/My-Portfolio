@@ -1,0 +1,499 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(18, 18, 62);
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.02rem;
+}
+
+hr {
+    border: 0;
+    background-color: white;
+    height: 1.2px;
+}
+.first_hr{
+    margin: 10vh 100px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+main{
+    display: flex;
+}
+.side{
+    z-index: -1;
+    background-color: lavender;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15vw;
+    height: 100vh;
+}
+.side ul{
+    position: relative;
+    top: 100px;
+    list-style: none;
+}
+.side ul .contents{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.side ul li{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.main_section{
+    width: 85vw;
+    position: relative;
+    left: 15vw;
+    top: 10vh;
+}
+.first_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px 0;
+}
+
+.first_section>div {
+    width: 40%;
+}
+
+.left_section {
+    font-size: 3rem;
+    margin: 70px 0;
+}
+
+.right_section img {
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+}
+
+.buttons {
+    margin: 25px;
+}
+.button {
+    border: 2px solid rgb(18, 18, 62);
+    background-color: lavender;
+    color: rgb(18, 18, 62);
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover {
+    border: 2px solid white;
+    background-color: rgb(18, 18, 62);
+    color: white;
+}
+
+.second_section {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.second_section h1 {
+    font-size: 2rem;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+    border: 0;
+    background-color: lavender;
+    height: 3px;
+    margin: 50px 100px 0 100px;
+}
+
+.vertical {
+    background-color: lavender;
+    height: 10vh;
+    width: 1.5px;
+}
+
+.qualification_logo {
+    width: 25px;
+    position: relative;
+    bottom: 30px;
+    right: 12.5px;
+}
+
+.qualification_title {
+    width: 200px;
+    position: relative;
+    top: 6vh;
+    right: 100px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.qualification_year {
+    width: 200px;
+    position: relative;
+    top: 6vh;
+    right: 100px;
+    font-size: 18px;
+    text-align: center;
+    color: gray;
+}
+
+.qualification_institute {
+    width: 200px;
+    position: relative;
+    top: 6.5vh;
+    right: 7.5vw;
+    width: 15vw;
+    text-align: center;
+    color: aqua;
+    font-size: 15px;
+}
+.qualification_score {
+    width: 200px;
+    position: relative;
+    top: 6.5vh;
+    right: 7.5vw;
+    width: 15vw;
+    text-align: center;
+    color: gold;
+    font-size: 15px;
+}
+
+.second_hr {
+    margin-top: 75vh;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.third_section {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.third_section h1 {
+    font-size: 2rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    margin: 1vw;
+    padding: 2vw;
+}
+.card:hover{
+    border: 5px solid white;
+    background-color: rgb(18, 18, 62);
+    text-decoration: white;
+}
+.card:hover .list_of_skills{
+    color: white;
+}
+.card:hover h1{
+    color: white;
+}
+.card_1{
+    width: 23vw;
+}
+.card_2{
+    width: 44vw;
+}
+.card_3{
+    width: 73vw;
+}
+.card_4{
+    width: 23vw;
+}
+.list_of_skills {
+    margin: 10px;
+}
+.list_flex{
+    display: flex;
+    flex-wrap:wrap;
+}
+.skills_headings{
+    margin-top: 30px;
+}
+.list_of_skills li {
+    list-style: none;
+    margin: 10px;
+}
+
+.list_of_skills ul li {
+    margin-left: 5px;
+}
+.third_hr{
+    margin: 50px 100px;
+}
+.fourth_section {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.fourth_section h1 {
+    font-size: 2rem;
+}
+.experiences{
+    padding-bottom: 25px;
+    width: 75vw;
+    margin: 5px;
+}
+.experience{
+    padding: 20px;
+    width: 75vw;
+    border: 2px solid aqua;
+    margin: 5px;
+    cursor: pointer;
+}
+.experience:hover{
+    background-color: lavenderblush;
+    color: rgb(0, 0, 33);
+    border: 3px solid aqua;
+}
+.experience h3{
+    text-decoration: underline;
+}
+.experience_list {
+    margin-left: 25px;
+}
+.fourth_hr{
+    margin: 50px 100px;
+}
+.fifth_section{
+    background-color: lavenderblush;
+    padding: 2.5vw;
+}
+.list_of_interests li {
+    list-style: none;
+    margin: 10px;
+}
+
+.list_of_interests ul li {
+    margin-left: 5px;
+}
+.fifth_hr{
+    margin: 50px 100px;
+}
+.sixth_section{
+    max-width: 80vw;
+    margin: auto;
+}
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.testimonial{
+    width: 23vw;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid lavender;
+}
+.testimonial:hover{
+    background-color: white;
+    color: rgb(0, 0, 33);
+}
+.testimony{
+    width: 15vw;
+    height: 15vw;
+    border: 2px solid lavender;
+    border-radius: 15vw;
+    margin: 10px;
+}
+.testimony_name{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.testimony_details{
+    font-style: italic;
+}
+.quote{
+    display: block;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+h1{
+    margin-bottom: 25px;
+}
+.text_card {
+    color: rgb(0, 0, 33);
+}
+
+.text_black {
+    color: black;
+}
+.text_white{
+    color: white;
+}
+.text_purple {
+    color: rgb(170, 107, 228);
+}
+
+.text_purple_2 {
+    color: rgb(112, 11, 204);
+}
+
+.text_gold {
+    color: gold;
+}
+
+.text_gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(255, 217, 0);
+}
+
+footer {
+    background-color: white;
+    width: 100vw;
+    margin-top: 25vh;
+}
+
+.footer_top {
+    display: flex;
+}
+
+.footer_first {
+    color: black;
+    padding: 10px 25px;
+    width: 25vw;
+}
+
+.footer_second {
+    width: 25vw;
+}
+
+.footer_third {
+    width: 25vw;
+}
+
+.footer_fourth {
+    width: 25vw;
+}
+
+footer div ul {
+    color: black;
+    margin: 1vh 1vw;
+    list-style: none;
+}
+
+footer div ul li {
+    color: black;
+    margin: 5px;
+}
+
+.footer_bottom {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: black;
+}
+@media only screen and (max-width: 600px) {
+    .side, .right_section{
+        display: none;
+    }
+    .left_section{
+        width: 100%;
+    }
+    .main_section, .first_section, .second_section, .third_section, .fourth_section, .fifth_section, .sixth_section{
+        overflow: auto;
+        position: static;
+        width: 100vw;
+    }
+    .horizontal{
+        margin: 50px 25px 0 25px;
+    }
+    .qualification_logo{
+        position: relative;
+        bottom: 4vh;
+        right: 12.5px;
+    }
+    .qualification_title{
+        position: relative;
+        top: 6vh;
+        right: 18vw;
+    }
+    .qualification_year{
+        position: relative;
+        top: 6vh;
+        right: 18vw;
+    }
+    .qualification_institute{
+        position: relative;
+        top: 6vh;
+        right: 9vw;
+    }
+    .qualification_score{
+        position: relative;
+        top: 6vh;
+        right: 9vw;
+    }
+    .card{
+        width: 100vw;
+    }
+    .testimonial{
+        width: auto;
+    }
+    footer{
+        width: 100vw;
+    }
+}
